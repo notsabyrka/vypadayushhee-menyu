@@ -10,4 +10,13 @@
   --color-lime: #d9ff70;
   --color-orange: #ffd86b;
   --color-yellow: #ffe95a;
+
+  --border-5: 5px solid var(--color-dark);
+  --border-4: 4px solid var(--color-dark);
+  --border-3: 3px solid var(--color-dark);
+
+  --shadow: 14px 14px var(--color-dark);
+  --shadow-small: 10px 10px var(--color-dark);
+
+  --transition-duration: 0.2s;
 }
