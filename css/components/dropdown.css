@@ -81,6 +81,20 @@
 }
 
 .dropdown__link {
-  display: block;
+  display: flex;
+  justify-content: space-between;
   padding: 20px;
+
+  &:hover > .dropdown__link-badge {
+    color: var(--color-dark);
+    background-color: var(--color-light);
+  }
+}
+
+.dropdown__link-badge {
+  padding: 3px 7px;
+  font-weight: 800;
+  font-size: 16px;
+  color: var(--color-light);
+  background-color: var(--color-dark);
 }
