@@ -24,16 +24,50 @@
               </li>
             </ul>
           </nav>
-          <button class="header__profile" type="button">
-            <img
-              class="header__profile-image"
-              src="./img/profile.jpg"
-              alt="Антон"
-              width="54"
-              height="54"
-            />
-            <span class="header__profile-name">Антон</span>
-          </button>
+          <div class="header__dropdown dropdown">
+            <button class="header__profile" type="button">
+              <img
+                class="header__profile-image"
+                src="./img/profile.jpg"
+                alt="Антон"
+                width="54"
+                height="54"
+              />
+              <span class="header__profile-name">Антон</span>
+            </button>
+            <div class="dropdown__content">
+              <header class="dropdown__header">
+                <img
+                  class="dropdown__image"
+                  src="./img/profile.jpg"
+                  alt="Антон"
+                  width="54"
+                  height="54"
+                />
+                <div class="dropdown__body">
+                  <span class="dropdown__name">Антон Смирнов</span>
+                  <span class="dropdown__role">Креативный директор</span>
+                </div>
+              </header>
+              <ul class="dropdown__list">
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="/">Профиль</a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="/">Уведомления</a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="/">Внешний вид</a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="/">Оплата</a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="/">Выйти</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </header>
         <div class="content">
           <section class="left">
