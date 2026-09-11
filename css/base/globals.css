@@ -6,3 +6,9 @@ body {
   color: var(--color-dark);
   background-color: var(--color-yellow);
 }
+
+main {
+  background-color: var(--color-light);
+  border: var(--border-5);
+  box-shadow: var(--shadow);
+}
