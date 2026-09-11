@@ -26,6 +26,10 @@
   width: 320px;
   border: var(--border-5);
   box-shadow: var(--shadow-small);
+
+  &:not(.is-active) {
+    display: none;
+  }
 }
 
 .dropdown__header {

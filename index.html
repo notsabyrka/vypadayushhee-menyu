@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Выпадающее меню</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js" defer></script>
   </head>
   <body>
     <main class="main container">
@@ -24,8 +25,13 @@
               </li>
             </ul>
           </nav>
-          <div class="header__dropdown dropdown">
-            <button class="dropdown__profile" type="button">
+          <div class="header__dropdown dropdown" data-js-dropdown>
+            <button
+              class="dropdown__profile"
+              type="button"
+              aria-expanded="false"
+              data-js-dropdown-button
+            >
               <img
                 class="dropdown__image"
                 src="./img/profile.jpg"
@@ -35,7 +41,7 @@
               />
               <span class="dropdown__name">Антон</span>
             </button>
-            <div class="dropdown__content">
+            <div class="dropdown__content" data-js-dropdown-content>
               <header class="dropdown__header">
                 <img
                   class="dropdown__image"
