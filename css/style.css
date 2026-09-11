@@ -4,4 +4,8 @@
 @import "base/utils.css";
 @import "base/globals.css";
 
+@import "components/main.css";
 @import "components/header.css";
+@import "components/content.css";
+@import "components/left.css";
+@import "components/right.css";

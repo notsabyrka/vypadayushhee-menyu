@@ -1,0 +1,33 @@
+.right {
+  width: 100%;
+  max-width: 340px;
+  padding: 28px;
+  border-block: var(--border-3);
+  border-left: var(--border-3);
+}
+
+.right__list,
+.right__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.right__list {
+  row-gap: 16px;
+}
+
+.right__item {
+  row-gap: 4px;
+  padding: 20px;
+  border: var(--border-4);
+}
+
+.right__key {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.right__value {
+  font-weight: 200;
+  font-size: 16px;
+}
