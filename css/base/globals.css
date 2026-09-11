@@ -6,3 +6,13 @@ body {
   color: var(--color-dark);
   background-color: var(--color-yellow);
 }
+
+a,
+button {
+  transition-duration: var(--transition-duration);
+
+  &:hover {
+    color: var(--color-light);
+    background-color: var(--color-dark);
+  }
+}
