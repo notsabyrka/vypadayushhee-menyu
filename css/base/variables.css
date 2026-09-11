@@ -18,5 +18,10 @@
   --shadow: 14px 14px var(--color-dark);
   --shadow-small: 10px 10px var(--color-dark);
 
+  --font-family-base: "Manrope", sans-serif;
+
+  --container-width: 1180px;
+  --container-padding-x: 15px;
+
   --transition-duration: 0.2s;
 }
